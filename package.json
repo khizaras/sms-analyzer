@@ -1,0 +1,52 @@
+{
+  "name": "ledgersms",
+  "private": true,
+  "version": "1.0.0",
+  "description": "LedgerSMS — personal SMS financial ledger",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "concurrently -n api,web -c cyan,gold \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "nodemon --watch server server/src/index.js",
+    "dev:client": "webpack serve --config client/webpack.config.js --mode development",
+    "build": "webpack --config client/webpack.config.js --mode production",
+    "start": "node server/src/index.js",
+    "check": "node server/src/services/parser.selfcheck.js && node server/src/isolation.check.js",
+    "check:isolation": "node server/src/isolation.check.js"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.6.1",
+    "@reduxjs/toolkit": "^2.5.1",
+    "antd": "^5.24.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.30.0",
+    "recharts": "^2.15.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "concurrently": "^9.1.2",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "nodemon": "^3.1.9",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}

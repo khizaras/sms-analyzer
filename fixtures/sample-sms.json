@@ -1,0 +1,109 @@
+{
+  "messages": [
+    {
+      "sender": "HDFCBK",
+      "receivedAt": "2026-10-01T04:30:00.000Z",
+      "body": "Rs.25,000.00 debited from HDFC Bank A/c **4412 on 01-10-2026 via NEFT to LANDLORD RENT. Avl Bal Rs.70,210.25"
+    },
+    {
+      "sender": "ICICIB",
+      "receivedAt": "2026-10-05T04:30:00.000Z",
+      "body": "EMI of Rs.12,500.00 debited from ICICI Acct XX7781 on 05-10-2026. Info: HOME LOAN EMI. Avl Bal INR 48,900.00"
+    },
+    {
+      "sender": "ICICIB",
+      "receivedAt": "2026-10-11T04:30:00.000Z",
+      "body": "INR 599.00 debited from ICICI Acct XX7781 on 11-10-2026. Info: AIRTEL BILL. Avl Bal INR 48,301.00"
+    },
+    {
+      "sender": "KOTAKB",
+      "receivedAt": "2026-10-15T04:30:00.000Z",
+      "body": "Rs.5,000.00 debited from Kotak Bank a/c XXXX2290 on 15-10-2026 towards SIP GROWW. Bal Rs 20,440.00"
+    },
+    {
+      "sender": "KOTAKB",
+      "receivedAt": "2026-10-16T04:30:00.000Z",
+      "body": "Rs.2,000.00 debited from Kotak Bank a/c XXXX2290 on 16-10-2026 via UPI to RAHUL SHARMA. Bal Rs 18,440.00"
+    },
+    {
+      "sender": "ICICIB",
+      "receivedAt": "2026-10-18T04:30:00.000Z",
+      "body": "INR 640.00 spent using ICICI Bank Card XX7781 at ZOMATO on 18-10-2026. Avl Bal INR 47,661.00"
+    },
+    {
+      "sender": "SBIINB",
+      "receivedAt": "2026-10-20T04:30:00.000Z",
+      "body": "Rs.1,800.00 debited from SBI A/c XX1008 on 20-10-2026 at HPCL FUEL. Avl Bal Rs.24,200.00"
+    },
+    {
+      "sender": "AX-AXISBK",
+      "receivedAt": "2026-10-22T04:30:00.000Z",
+      "body": "INR 499.00 credited to Axis Bank Card XX6620 on 22-10-2026. Info: AMAZON REFUND. Avl Bal INR 40,499.00"
+    },
+    {
+      "sender": "SBIINB",
+      "receivedAt": "2026-10-28T04:30:00.000Z",
+      "body": "Dear Customer, Rs.5,000.00 withdrawn at ATM from A/c XX1008 on 28-10-2026. Avl Bal Rs.19,200.00 -SBI"
+    },
+    {
+      "sender": "HDFCBK",
+      "receivedAt": "2026-10-29T04:30:00.000Z",
+      "body": "Rs.560.00 debited from HDFC Bank A/c **4412 on 29-10-26 to VPA zomato@upi. Avl Bal Rs.69,650.25"
+    },
+    {
+      "sender": "SBIINB",
+      "receivedAt": "2026-10-31T04:30:00.000Z",
+      "body": "Rs.240.00 credited to your SBI A/c XX1008 on 31-10-2026. Info: INTEREST. Avl Bal Rs.19,440.00"
+    },
+    {
+      "sender": "ICICIB",
+      "receivedAt": "2026-11-01T04:30:00.000Z",
+      "body": "ICICI Bank Acct XX7781 is credited with INR 85,000.00 on 01-11-2026. Info: SALARY ACME. Avl Bal INR 1,32,661.00"
+    },
+    {
+      "sender": "HDFCBK",
+      "receivedAt": "2026-11-02T04:30:00.000Z",
+      "body": "Rs.842.50 debited from A/c **4412 on 02-11-26 to VPA swiggy@hdfcbank. Avl Bal: Rs.68,807.75"
+    },
+    {
+      "sender": "AX-AXISBK",
+      "receivedAt": "2026-11-03T04:30:00.000Z",
+      "body": "INR 2,199.00 spent on Axis Bank Credit Card XX6620 at AMAZON on 03-11-2026. Avl Bal INR 38,300.00"
+    },
+    {
+      "sender": "KOTAKB",
+      "receivedAt": "2026-11-04T04:30:00.000Z",
+      "body": "Rs 1,450.00 is debited from Kotak Bank a/c XXXX2290 on 04-11-26 towards UPI/BESCOM electricity. Bal Rs 16,990.00"
+    },
+    {
+      "sender": "HDFCBK",
+      "receivedAt": "2026-11-05T04:30:00.000Z",
+      "body": "Rs.312.00 debited from HDFC Bank A/c **4412 on 05-11-26 to VPA uber@okaxis. Avl Bal Rs.68,495.75"
+    },
+    {
+      "sender": "HDFCBK",
+      "receivedAt": "2026-11-05T08:00:00.000Z",
+      "body": "123456 is the OTP for your HDFC Bank transaction of Rs.500. Do not share it with anyone."
+    },
+    {
+      "sender": "AX-AXISBK",
+      "receivedAt": "2026-11-04T08:00:00.000Z",
+      "body": "Axis Bank: Pre-approved offer! Get 10% cashback on dining. T&C apply. Unsubscribe."
+    },
+    {
+      "sender": "VM-COURIER",
+      "receivedAt": "2026-11-03T09:00:00.000Z",
+      "body": "Your package is out for delivery today. Track at courier.example"
+    },
+    {
+      "sender": "AD-REMIND",
+      "receivedAt": "2026-11-02T09:00:00.000Z",
+      "body": "Reminder: your service visit is scheduled for tomorrow between 2 and 4."
+    },
+    {
+      "sender": "HDFCBK",
+      "receivedAt": "2026-11-01T09:00:00.000Z",
+      "body": "Dear Customer, a transaction was attempted on your account. If this was not you, call support."
+    }
+  ]
+}
